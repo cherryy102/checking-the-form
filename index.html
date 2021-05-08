@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="div-form">
+        <form action="">
+            <div class="form__item"><input type="text" class="name-input" placeholder="Imię i nazwisko" required>
+                <span class="error error_name"></span>
+            </div>
+            <div class="form__item"><input type="email" class="email-input" placeholder="Email" required>
+                <span class="error error_email"></span>
+            </div>
+            <div class="form__item"><input type="password" class="pass-input" placeholder="Hasło" required>
+                <span class="error error_pass"></span>
+            </div>
+
+            <div class="form__item"><input type="password" class="passCheck-input" placeholder="Powtórz hasło" required>
+                <span class="error error_passCheck"></span>
+            </div>
+
+            <div class="btn-bgc">
+                <button>Wyślij</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
